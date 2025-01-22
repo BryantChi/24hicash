@@ -74,7 +74,7 @@
     </a>
 
     <div class="d-none d-md-block social-links-btn">
-        <a href="https://line.me/R/ti/p/@992ubcbw" class="d-none d-md-block"><img src="{{asset('assets/images/00-hp/left_line.png')}}"
+        <a href="https://lin.ee/9yWWFdt" class="d-none d-md-block"><img src="{{asset('assets/images/00-hp/left_line.png')}}"
                 class="img-fluid left-line-img" alt=""></a>
         <!-- <a href="" class="d-none d-md-block"><img src="images/00-hp/left_msg.png" class="img-fluid left-msg-img"
                 alt=""></a> -->
@@ -84,7 +84,7 @@
     <div class="d-flex d-md-none w-100 position-fixed bottom-0 left-0 social-links-btn-mobile">
         <div class="row justify-content-center align-content-center text-center p-0 m-0 w-100">
             <div class="col-6 s-line-btn align-self-center">
-                <a href="https://line.me/R/ti/p/@992ubcbw" target="_blank">
+                <a href="https://lin.ee/9yWWFdt" target="_blank">
                     <span><i class="bi bi-line"></i></span> 免費諮詢
                 </a>
             </div>

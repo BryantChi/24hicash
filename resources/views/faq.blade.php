@@ -33,7 +33,7 @@
                             若還有疑慮歡迎利用LINE或來電與我們聯絡，我們將有親切的專人為您服務。
 
                             手機點選LINE免費諮詢按鈕，也可以輸入官方ID： <a
-                                href="https://line.me/R/ti/p/@992ubcbw"><span>@992ubcbw</span></a>，即可加入好友詢問！
+                                href="https://lin.ee/9yWWFdt"><span>@005vwerq</span></a>，即可加入好友詢問！
                         </p>
                     </div>
 

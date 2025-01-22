@@ -123,12 +123,12 @@
 
                     <div class="col-md-6 mb-3">
                         <div class="row g-0 rounded-gray-5 wow fadeIn" data-wow-delay="0.1s">
-                            <div class="col-lg-4 col-md">
+                            <div class="col-lg-4">
                                 <img src="{{asset('assets/images/00-hp/nocard_p07.jpg')}}" class="img-fluid rounded-left w-100 rounded-m-top"
                                     alt="">
                             </div>
                             <div
-                                class="col-auto d-flex justify-content-lg-start justify-content-center align-self-center px-lg-3">
+                                class="col d-flex justify-content-lg-start justify-content-center align-self-center px-lg-3">
                                 <div class="d-flex align-items-center px-0 me-lg-0 me-3 wm-content">
                                     <img src="{{asset('assets/images/00-hp/nocard_n7.png')}}" class="img-fluid" alt="">
                                     <h4 class="mb-0 text-322854">AFTEE先享後付</h4>
@@ -147,7 +147,7 @@
                                         <img src="{{asset('assets/images/00-hp/bu_more.svg')}}" class="img-fluid mx-1 my-1"
                                             style="height: 2.5rem;" alt="">
                                     </a>
-                                    <a href="https://line.me/R/ti/p/@992ubcbw" target="_blank">
+                                    <a href="https://lin.ee/9yWWFdt" target="_blank">
                                         <img src="{{asset('assets/images/00-hp/bu_line.svg')}}" class="img-fluid mx-1 my-1"
                                             style="height: 2.5rem;" alt="">
                                     </a>
@@ -395,9 +395,9 @@
                             <div class="mb-3 text-center">
                                 <img src="{{asset('assets/images/00-hp/card_icon1.png')}}" class="img-fluid" alt="">
                             </div>
-                            <div class="d-grid align-items-center px-lg-4 px-3 me-lg-0 me-3 mb-3">
+                            <div class="d-grid align-items-center px-lg-4 px-3 mx-lg-auto mx-3 mb-3">
                                 <h5 class="mb-3 text-center">手續簡便</h5>
-                                <p class="mb-0 text-justify">
+                                <p class="mb-0 text-justify mx-auto">
                                     手續簡單、流程透明，只需要確認是本人使用即可快速完成現金兌換，省時又方便。
                                 </p>
                             </div>
@@ -408,9 +408,9 @@
                             <div class="mb-3 text-center">
                                 <img src="{{asset('assets/images/00-hp/card_icon2.png')}}" class="img-fluid" alt="">
                             </div>
-                            <div class="d-grid align-items-center px-lg-4 px-3 me-lg-0 me-3 mb-3">
+                            <div class="d-grid align-items-center px-lg-4 px-3 mx-lg-auto mx-3 mb-3">
                                 <h5 class="mb-3 text-center">隱私保護</h5>
-                                <p class="mb-0 text-justify">
+                                <p class="mb-0 text-justify mx-auto">
                                     我們重視您的隱私與安全，交易過程嚴格保密，讓您安心使用。
                                 </p>
                             </div>
@@ -421,12 +421,10 @@
                             <div class="mb-3 text-center">
                                 <img src="{{asset('assets/images/00-hp/card_icon3.png')}}" class="img-fluid" alt="">
                             </div>
-                            <div class="d-grid align-items-center px-lg-4 px-3 me-lg-0 me-3 mb-3">
+                            <div class="d-grid align-items-center px-lg-4 px-3 mx-lg-auto mx-3 mb-3">
                                 <h5 class="mb-3 text-center">靈活額度</h5>
-                                <p class="mb-0 text-justify">
-                                    不論您需要小額或大額現金，<br>
-                                    我們的服務都能滿足您的需求<br>
-                                    ，靈活應對各種資金挑戰。
+                                <p class="mb-0 text-justify mx-auto">
+                                    不論您需要小額或大額現金，我們的服務都能滿足您的需求，靈活應對各種資金挑戰。
                                 </p>
                             </div>
                         </div>
@@ -436,9 +434,9 @@
                             <div class="mb-3 text-center">
                                 <img src="{{asset('assets/images/00-hp/card_icon4.png')}}" class="img-fluid" alt="">
                             </div>
-                            <div class="d-grid align-items-center px-lg-4 px-3 me-lg-0 me-3 mb-3">
+                            <div class="d-grid align-items-center px-lg-4 px-3 mx-lg-auto mx-3 mb-3">
                                 <h5 class="mb-3 text-center">解決短期資金需求</h5>
-                                <p class="mb-0 text-justify">
+                                <p class="mb-0 text-justify mx-auto">
                                     無論是急需支付帳單、旅遊還是其他用途，我們的信用卡換現金服務都是您最佳的解決方案。
                                 </p>
                             </div>
