@@ -33,11 +33,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <!-- Libraries Stylesheet -->
-    <link href="{{asset('assets/lib/animate/animate.min.css')}}" rel="stylesheet">
-    <link href="{{asset('lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('assets/lib/animate/animate.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Template Stylesheet -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}?v={{ time() }}">
@@ -47,6 +47,56 @@
     @stack('third_party_stylesheets')
 
     @stack('page_css')
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16832950946"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'AW-16832950946');
+    </script>
+
+    <!-- Event snippet for [MT]-[TELEPHONE] conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+        function gtag_report_conversion_phone(url) {
+            var callback = function() {
+                if (typeof(url) != 'undefined') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-16832950946/psitCIfo25EaEKLlydo-',
+                'value': 1.0,
+                'currency': 'TWD',
+                'event_callback': callback
+            });
+            return false;
+        }
+    </script>
+
+    <!-- Event snippet for [MT]-[LINE] conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+        function gtag_report_conversion_line(url) {
+            var callback = function() {
+                if (typeof(url) != 'undefined') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-16832950946/SO-TCITo25EaEKLlydo-',
+                'value': 1.0,
+                'currency': 'TWD',
+                'event_callback': callback
+            });
+            return false;
+        }
+    </script>
+
+
 </head>
 
 <body>
@@ -70,12 +120,14 @@
     <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
             class="bi bi-arrow-up"></i></a> -->
     <a href="#" class="rounded-circle back-to-top">
-        <img src="{{asset('assets/images/00-hp/top.png')}}" class="img-fluid" style="width: 65px;" alt="">
+        <img src="{{ asset('assets/images/00-hp/top.png') }}" class="img-fluid" style="width: 65px;" alt="">
     </a>
 
     <div class="d-none d-md-block social-links-btn">
-        <a href="https://lin.ee/9yWWFdt" class="d-none d-md-block"><img src="{{asset('assets/images/00-hp/left_line.png')}}"
-                class="img-fluid left-line-img" alt=""></a>
+        <a href="https://lin.ee/9yWWFdt" target="_blank" class="d-none d-md-block"
+        onclick="return gtag_report_conversion_line('https://lin.ee/9yWWFdt');"><img
+                src="{{ asset('assets/images/00-hp/left_line.png') }}" class="img-fluid left-line-img"
+                alt=""></a>
         <!-- <a href="" class="d-none d-md-block"><img src="images/00-hp/left_msg.png" class="img-fluid left-msg-img"
                 alt=""></a> -->
     </div>
@@ -84,12 +136,14 @@
     <div class="d-flex d-md-none w-100 position-fixed bottom-0 left-0 social-links-btn-mobile">
         <div class="row justify-content-center align-content-center text-center p-0 m-0 w-100">
             <div class="col-6 s-line-btn align-self-center">
-                <a href="https://lin.ee/9yWWFdt" target="_blank">
+                <a href="https://lin.ee/9yWWFdt" target="_blank"
+                onclick="return gtag_report_conversion_line('https://lin.ee/9yWWFdt');">
                     <span><i class="bi bi-line"></i></span> 免費諮詢
                 </a>
             </div>
             <div class="col-6 s-phone-btn align-self-center">
-                <a href="tel:05-5334000" target="_blank">
+                <a href="tel:0980-725-775" target="_blank"
+                onclick="return gtag_report_conversion_phone('tel:0980-725-775');">
                     <span><i class="bi bi-telephone-fill"></i></span> 聯絡專人
                 </a>
             </div>
@@ -105,10 +159,10 @@
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="{{asset('assets/lib/wow/wow.min.js')}}"></script>
-    <script src="{{asset('assets/lib/easing/easing.min.js')}}"></script>
-    <script src="{{asset('assets/lib/waypoints/waypoints.min.js')}}"></script>
-    <script src="{{asset('assets/lib/owlcarousel/owl.carousel.min.js')}}"></script>
+    <script src="{{ asset('assets/lib/wow/wow.min.js') }}"></script>
+    <script src="{{ asset('assets/lib/easing/easing.min.js') }}"></script>
+    <script src="{{ asset('assets/lib/waypoints/waypoints.min.js') }}"></script>
+    <script src="{{ asset('assets/lib/owlcarousel/owl.carousel.min.js') }}"></script>
 
     <!-- Template Javascript -->
     <script src="{{ asset('assets/js/main.js') }}?v={{ time() }}"></script>

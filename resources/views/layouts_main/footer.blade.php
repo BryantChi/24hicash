@@ -11,10 +11,12 @@
                 </div>
                 <div class="d-block d-lg-flex justify-content-center">
                     <p class="mb-2 text-white me-lg-3"><i class="fa fa-phone-alt me-2"></i>客服專線： <a
-                            href="tel:0980-725-775"><span
+                            href="tel:0980-725-775" target="_blank"
+                            onclick="return gtag_report_conversion_phone('tel:0980-725-775');"><span
                                 style="color: #fdea06 !important;font-size: larger;">0980-725-775</span></a></p>
                     <p class="mb-2 text-white ms-lg-3"><i class="fab fa-line me-2"></i>LINE ID： <a
-                            href="https://lin.ee/9yWWFdt"><span
+                            href="https://lin.ee/9yWWFdt" target="_blank"
+                            onclick="return gtag_report_conversion_line('https://lin.ee/9yWWFdt');"><span
                                 style="color: #fdea06 !important;font-size: larger;">@005vwerq</span></a></p>
                 </div>
                 <div class="d-flex justify-content-center text-white">

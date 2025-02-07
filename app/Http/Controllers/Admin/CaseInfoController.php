@@ -63,7 +63,7 @@ class CaseInfoController extends AppBaseController
         foreach ($tempFiles as $tempPath) {
             // dd($tempPath);
             if (!str_starts_with($tempPath, 'uploads/temp/editor/')) {
-                $tempPathFormat = str_replace("../../../", "", $tempPath);
+                $tempPathFormat = preg_replace('/(\.\.\/)+/', '', $tempPath);
             }
 
             $filename = basename($tempPathFormat);
@@ -160,7 +160,7 @@ class CaseInfoController extends AppBaseController
         foreach ($tempFiles as $tempPath) {
             // dd($tempPath);
             if (!str_starts_with($tempPath, 'uploads/temp/editor/')) {
-                $tempPathFormat = str_replace("../../../", "", $tempPath);
+                $tempPathFormat = preg_replace('/(\.\.\/)+/', '', $tempPath);
             }
 
             $filename = basename($tempPathFormat);
@@ -214,8 +214,8 @@ class CaseInfoController extends AppBaseController
         $files = $this->extractFilePathsFromContent($caseInfo->case_content);
 
         foreach ($files as $filePath) {
-            if (Storage::exists($filePath)) {
-                Storage::delete($filePath);
+            if (File::exists($filePath)) {
+                File::delete($filePath);
             }
         }
 

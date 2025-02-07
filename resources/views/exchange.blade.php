@@ -135,7 +135,8 @@
                                 無論是應對緊急情況，還是規劃未來，信用卡換現金都是您 可靈活運用的資金夥伴。立即聯繫我們，讓您的信用額度變 成即時可用的現金！
                             </p>
                             <div class="d-flex align-items-center">
-                                <a href="https://lin.ee/9yWWFdt" target="_blank">
+                                <a href="https://lin.ee/9yWWFdt" target="_blank"
+                                onclick="return gtag_report_conversion_line('https://lin.ee/9yWWFdt');">
                                     <img src="{{asset('assets/images/02/02bu_line.svg')}}" class="img-fluid" style="height: 2.5rem;"
                                         alt="">
                                 </a>

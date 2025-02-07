@@ -110,7 +110,7 @@
                         刷卡換現金不會影響您的聯徵紀錄，還可享有較長的還款期限，同時累積刷卡紅利。<br>
                         即刻聯繫我們，體驗快速、安全的刷卡換現金服務，靈活掌控您的財務需求！
                     </p>
-                    <a href="https://lin.ee/9yWWFdt">
+                    <a href="https://lin.ee/9yWWFdt" onclick="return gtag_report_conversion_line('https://lin.ee/9yWWFdt');">
                         <img src="{{asset('assets/images/03/03bu_line.svg')}}" class="img-fluid" style="height: 2.5rem;" alt="">
                     </a>
                 </div>
@@ -179,7 +179,7 @@
                     <p class="text-6a mb-3">
                         「安心額度換現金」會依照您核准的額度給予兌換方案，實際收購金額會依線上報價為準，歡迎線上諮詢或來電洽詢。
                     </p>
-                    <a href="https://lin.ee/9yWWFdt">
+                    <a href="https://lin.ee/9yWWFdt" target="_blank" onclick="return gtag_report_conversion_line('https://lin.ee/9yWWFdt');">
                         <img src="{{asset('assets/images/03/03bu_line.svg')}}" class="img-fluid" style="height: 2.5rem;" alt="">
                     </a>
                 </div>
@@ -256,7 +256,7 @@
                     <p class="text-6a mb-3">
                         「安心額度換現金」會依照您核准的額度給予兌換方案，實際收購金額會依線上報價為準，歡迎線上諮詢或來電洽詢。
                     </p>
-                    <a href="https://lin.ee/9yWWFdt">
+                    <a href="https://lin.ee/9yWWFdt" target="_blank" onclick="return gtag_report_conversion_line('https://lin.ee/9yWWFdt');">
                         <img src="{{asset('assets/images/03/03bu_line.svg')}}" class="img-fluid" style="height: 2.5rem;" alt="">
                     </a>
                 </div>
@@ -326,7 +326,7 @@
                     <p class="text-6a mb-3">
                         「安心額度換現金」會依照您核准的額度給予兌換方案，實際收購金額會依線上報價為準，歡迎線上諮詢或來電洽詢。
                     </p>
-                    <a href="https://lin.ee/9yWWFdt">
+                    <a href="https://lin.ee/9yWWFdt" target="_blank" onclick="return gtag_report_conversion_line('https://lin.ee/9yWWFdt');">
                         <img src="{{asset('assets/images/03/03bu_line.svg')}}" class="img-fluid" style="height: 2.5rem;" alt="">
                     </a>
                 </div>
@@ -400,7 +400,7 @@
                     <p class="text-6a mb-3">
                         「安心額度換現金」會依照您核准的額度給予兌換方案，實際收購金額會依線上報價為準，歡迎線上諮詢或來電洽詢。
                     </p>
-                    <a href="https://lin.ee/9yWWFdt">
+                    <a href="https://lin.ee/9yWWFdt" target="_blank" onclick="return gtag_report_conversion_line('https://lin.ee/9yWWFdt');">
                         <img src="{{asset('assets/images/03/03bu_line.svg')}}" class="img-fluid" style="height: 2.5rem;" alt="">
                     </a>
                 </div>
@@ -470,7 +470,7 @@
                     <p class="text-6a mb-3">
                         「安心額度換現金」會依照您核准的額度給予兌換方案，實際收購金額會依線上報價為準，歡迎線上諮詢或來電洽詢。
                     </p>
-                    <a href="https://lin.ee/9yWWFdt">
+                    <a href="https://lin.ee/9yWWFdt" target="_blank" onclick="return gtag_report_conversion_line('https://lin.ee/9yWWFdt');">
                         <img src="{{asset('assets/images/03/03bu_line.svg')}}" class="img-fluid" style="height: 2.5rem;" alt="">
                     </a>
                 </div>
@@ -540,7 +540,7 @@
                     <p class="text-6a mb-3">
                         「安心額度換現金」會依照您核准的額度給予兌換方案，實際收購金額會依線上報價為準，歡迎線上諮詢或來電洽詢。
                     </p>
-                    <a href="https://lin.ee/9yWWFdt">
+                    <a href="https://lin.ee/9yWWFdt" target="_blank" onclick="return gtag_report_conversion_line('https://lin.ee/9yWWFdt');">
                         <img src="{{asset('assets/images/03/03bu_line.svg')}}" class="img-fluid" style="height: 2.5rem;" alt="">
                     </a>
                 </div>

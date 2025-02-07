@@ -147,7 +147,8 @@
                                         <img src="{{asset('assets/images/00-hp/bu_more.svg')}}" class="img-fluid mx-1 my-1"
                                             style="height: 2.5rem;" alt="">
                                     </a>
-                                    <a href="https://lin.ee/9yWWFdt" target="_blank">
+                                    <a href="https://lin.ee/9yWWFdt" target="_blank"
+                                    onclick="return gtag_report_conversion_line('https://lin.ee/9yWWFdt');">
                                         <img src="{{asset('assets/images/00-hp/bu_line.svg')}}" class="img-fluid mx-1 my-1"
                                             style="height: 2.5rem;" alt="">
                                     </a>
